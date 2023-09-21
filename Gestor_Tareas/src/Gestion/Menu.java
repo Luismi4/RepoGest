@@ -25,7 +25,7 @@ public class Menu {
 				Anadir.AniaUs(ta);
 				break;
 			case 2:
-				
+				Listar.List(ta);
 				break;
 			case 3:
 				
