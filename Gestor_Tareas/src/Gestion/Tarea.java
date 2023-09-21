@@ -9,6 +9,11 @@ public class Tarea {
 	String desc;
 	LocalDate fec;
 	
+	@Override
+	public String toString() {
+		return "Tarea [tit=" + tit + ", desc=" + desc + ", fec=" + fec + "]";
+	}
+
 	public String getTit() {
 		return tit;
 	}
