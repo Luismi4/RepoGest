@@ -1,12 +1,13 @@
 package Gestion;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Tarea {
 
 	String tit;
 	String desc;
-	Date fec;
+	LocalDate fec;
 	
 	public String getTit() {
 		return tit;
@@ -24,17 +25,17 @@ public class Tarea {
 		this.desc = desc;
 	}
 
-	public Date getFec() {
+	public LocalDate getFec() {
 		return fec;
 	}
 
-	public void setFec(Date fec) {
+	public void setFec(LocalDate fec) {
 		this.fec = fec;
 	}
 
 	
 	
-	public Tarea(String tit, String desc, Date fec) {
+	public Tarea(String tit, String desc, LocalDate fec) {
 		super();
 		this.tit = tit;
 		this.desc = desc;
