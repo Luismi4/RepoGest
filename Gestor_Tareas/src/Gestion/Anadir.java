@@ -26,9 +26,9 @@ public class Anadir {
 			LocalDate fec = LocalDate.of(anio, mes, dia);
 			Tarea ta1 = new Tarea(tit, desc, fec); 
 			ta.add(ta1);
-            System.out.println("Asistente dado de alta con éxito.");
+            System.out.println("tarea dada de alta con éxito.");
         } catch (Exception e) {
-            System.out.println("Error al dar de alta al asistente: " + e.getMessage());
+            System.out.println("Error al dar de alta a la tarea: " + e.getMessage());
         }
 		
 	}
