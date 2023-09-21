@@ -28,10 +28,10 @@ public class Menu {
 				Listar.List(ta);
 				break;
 			case 3:
-				
+				Modificar.modificar(ta);
 				break;
 			case 4:
-				
+				Eliminar.EliminarTarea(ta);
 				break;
 			case 5:
 				System.out.println("¡Hasta luego!");
