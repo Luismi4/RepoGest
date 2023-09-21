@@ -13,9 +13,9 @@ public class Anadir {
 		
 		try {
 			System.out.println("Introduzca el titulo");
-			tit = sc.nextLine();
+			tit = sc.next();
 			System.out.println("Introduzca la descripcion");
-			desc = sc.nextLine();
+			desc = sc.next();
 			System.out.println("Introduzca la fecha");
 			System.out.println("Dia: ");
 			dia = sc.nextInt();
